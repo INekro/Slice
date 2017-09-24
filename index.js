@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const token = process.env.TOKEN;
+const token = process.env.BOT_TOKEN;
 const prefix = 's!';
 const client = new Discord.Client();
 const config = require('./config.json');
@@ -264,6 +264,6 @@ break;
            message.react(`❌`)
 }
 });
-bot.login(process.env.TOKEN)
+bot.login(process.env.bot_TOKEN)
 
 
