@@ -264,6 +264,6 @@ break;
            message.react(`❌`)
 }
 });
-bot.login(process.env.bot_TOKEN)
+bot.login(process.env.BOT_TOKEN)
 
 
